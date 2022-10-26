@@ -12,7 +12,7 @@ Returns data for the top ~1000 Novation pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.thenovation.com/summary`
+`GET https://api.thenovation.com/api/summary`
 
 ### Response
 
@@ -38,7 +38,7 @@ Returns the tokens in the top ~1000 pairs on Novation, sorted by reserves.
 
 ### Request
 
-`GET https://api.thenovation.com/tokens`
+`GET https://api.thenovation.com/api/tokens`
 
 ### Response
 
@@ -63,7 +63,7 @@ Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.thenovation.com/tokens/0xe06f46AFD251B06152B478d8eE3aCea534063994`
+`GET https://api.thenovation.com/api/tokens/0xe06f46AFD251B06152B478d8eE3aCea534063994`
 
 ### Response
 
@@ -85,7 +85,7 @@ Returns data for the top ~1000 Novation pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.thenovation.com/pairs`
+`GET https://api.thenovation.com/api/pairs`
 
 ### Response
 
