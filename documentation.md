@@ -6,7 +6,7 @@ The canonical WBNB address used by the Novation interface is `0xbb4CdB9CBd36B01b
 
 Results are cached for 5 minutes (or 300 seconds).
 
-## [`/summary`](https://api.thenovation.com/summary)
+## [`/summary`](https://api.thenovation.com/api/summary)
 
 Returns data for the top ~1000 Novation pairs, sorted by reserves. 
 
@@ -32,7 +32,7 @@ Returns data for the top ~1000 Novation pairs, sorted by reserves.
 }
 ```
 
-## [`/tokens`](https://api.thenovation.com/tokens)
+## [`/tokens`](https://api.thenovation.com/api/tokens)
 
 Returns the tokens in the top ~1000 pairs on Novation, sorted by reserves.
 
@@ -57,7 +57,7 @@ Returns the tokens in the top ~1000 pairs on Novation, sorted by reserves.
 }
 ```
 
-## [`/tokens/0x...`](https://api.thenovation.com/tokens/0xe06f46AFD251B06152B478d8eE3aCea534063994)
+## [`/tokens/0x...`](https://api.thenovation.com/api/tokens/0xe06f46AFD251B06152B478d8eE3aCea534063994)
 
 Returns the token information, based on address.
 
@@ -79,7 +79,7 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/pairs`](https://api.thenovation.com/pairs)
+## [`/pairs`](https://api.thenovation.com/api/pairs)
 
 Returns data for the top ~1000 Novation pairs, sorted by reserves.
 
