@@ -1,14 +1,14 @@
 # Documentation
 
-All PancakeSwap pairs consist of two different tokens. BNB is not a native currency in PancakeSwap, and is represented only by WBNB in the pairs. 
+All Novation pairs consist of two different tokens. BNB is not a native currency in Novation, and is represented only by WBNB in the pairs. 
 
-The canonical WBNB address used by the PancakeSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
+The canonical WBNB address used by the Novation interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 Results are cached for 5 minutes (or 300 seconds).
 
 ## [`/summary`](https://api.thenovation.com/summary)
 
-Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves. 
+Returns data for the top ~1000 Novation pairs, sorted by reserves. 
 
 ### Request
 
@@ -34,7 +34,7 @@ Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
 
 ## [`/tokens`](https://api.thenovation.com/tokens)
 
-Returns the tokens in the top ~1000 pairs on PancakeSwap, sorted by reserves.
+Returns the tokens in the top ~1000 pairs on Novation, sorted by reserves.
 
 ### Request
 
@@ -81,7 +81,7 @@ Returns the token information, based on address.
 
 ## [`/pairs`](https://api.thenovation.com/pairs)
 
-Returns data for the top ~1000 PancakeSwap pairs, sorted by reserves.
+Returns data for the top ~1000 Novation pairs, sorted by reserves.
 
 ### Request
 
