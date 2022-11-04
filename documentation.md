@@ -19,7 +19,8 @@ Returns data for the top ~1000 Novation pairs, sorted by reserves.
 ```json5
 {
   "updated_at": 1234567,              // UNIX timestamp
-  "total_volume": 1234567,            // 24h total volume for all pairs
+  "total_volume": 1234567,            // total volume for all pairs since launch
+  "volume": 1234567,                  // 24h total volume for all pairs
   "data": {
     "0x..._0x...": {                  // BEP20 token addresses, joined by an underscore
       "price": "...",                 // price denominated in token1/token0
