@@ -6,7 +6,7 @@
 
 ## Interface
 
-```typescript
+```solidity
 interface Swapper {
     // In case of buy the "_token", it calculates output amount from input amount including amount after tax
     function getAmountOutFromBuy(
