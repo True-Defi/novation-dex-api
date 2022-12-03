@@ -20,13 +20,13 @@ interface Swapper {
         uint _amountOut
     ) public view returns (uint amountIn, uint afterTax);
     
-    // In cae of sell the "_token", it calculates output amount from input amount including amount after tax
+    // In case of sell the "_token", it calculates output amount from input amount including amount after tax
     function getAmountOutFromSell(
         address _token, 
         uint _amountIn
     ) public view returns (uint amountOut, uint afterTax);
 
-    // In cae of sell the "_token", it calculates input amount from output amount including amount after tax
+    // In case of sell the "_token", it calculates input amount from output amount including amount after tax
     function getAmountInFromSell(
         address _token, 
         uint _amountOut
